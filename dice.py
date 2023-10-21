@@ -51,8 +51,3 @@ class Dice:
         """Resets the current roll to initial value of 0 and clears roll history list."""
         self.current_roll = 0
         self.roll_history = []
-
-
-dice1 = Dice()
-
-dice1.get_current_roll()
