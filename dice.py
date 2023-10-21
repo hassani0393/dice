@@ -49,5 +49,6 @@ class Dice:
 
     def reset(self):
         """Resets the current roll to initial value of 0 and clears roll history list."""
+        self.current_num_of_roll = 0
         self.current_roll = 0
         self.roll_history = []
