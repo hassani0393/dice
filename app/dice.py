@@ -1,10 +1,10 @@
 # Using built-in random module for generating rolls
 import random
-import logging
+# import logging
 
 
 class Dice:
-    """simulates a dice for use in games.
+    """simulates a die for use in games.
     The class is capable of generating random dice rolls between 1 and value of dice_sides variable.
     Also keeps a history of rolls, and provides a reset feature to clear the roll history.
     """
